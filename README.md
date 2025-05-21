@@ -1,5 +1,5 @@
 # pear-react-whiteboard
-A minimal P2P whiteboard app based on Pear runtime based on the customized build of [Whiteboard SDK](http://npmjs.com/package/@baasi/whiteboard) I built a while ago
+A minimal P2P whiteboard app based on Pear runtime and a customized build of [Whiteboard SDK](http://npmjs.com/package/@baasi/whiteboard) I built a while ago
 
 # Running the project
 1) `npm i -g pear`
