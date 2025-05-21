@@ -1,0 +1,30 @@
+{
+  "name": "pear-react-whiteboard",
+  "main": "index.html",
+  "pear": {
+    "name": "pear-react-whiteboard",
+    "type": "desktop",
+    "gui": {
+      "backgroundColor": "#1F2430",
+      "height": "1080",
+      "width": "1920"
+    }
+  },
+  "type": "module",
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "pear run -d ."
+  },
+  "devDependencies": {
+    "pear-interface": "^1.0.0"
+  },
+  "dependencies": {
+    "@baasi/whiteboard": "file:./whiteboard-sdk",
+    "b4a": "^1.6.7",
+    "htm": "^3.1.1",
+    "hypercore-crypto": "^3.6.0",
+    "hyperswarm": "^4.11.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
